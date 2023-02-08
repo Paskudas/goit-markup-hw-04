@@ -165,10 +165,10 @@ body {
     padding-top: 188px;
     padding-bottom: 188px;
     background: #2E2F42;
-    background-image: url(./image/peopleoffice.jpg);
+    /*background-image: url(./image/peopleoffice.jpg);
     background-repeat: no-repeat;
     background-position:  center;
-
+    background: rgba(46, 47, 66, 0.7);*/
 }
 .effstext {       
     /*left: 473px;
@@ -324,6 +324,32 @@ body {
     color: var(--main-color-subtitle, #2E2F42);
     margin-bottom: 8px;
 }
+.ourteam-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.ourteam-soc-item {
+  width: 40px;
+  height: 40px;
+  padding-top: 8px;
+}
+.ourteam-soc-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  background-color: #4D5AE5;
+}
+.ourteam-soc-icon {  
+  fill: #ffffff;
+}
+.ourteam-soc-link:is(:hover) {
+  background-color: #404BBF;
+}
 .textp {
     font-size: 16px;
     line-height: 1.5;
@@ -435,6 +461,11 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;    
 }
+.footerlist {
+    display: flex;
+    gap: 120px;
+    
+}
 .footertext{    
     color: #E7E9FC;
     font-size: 16px;
@@ -445,4 +476,44 @@ body {
 }
 .logostudiofooter {
     color: #ffffff;
+}
+.footertext-soc {
+    font-family: 'Roboto';
+    font-style: normal;    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    letter-spacing: 0.02em;
+    padding bottom: 16px;
+}
+.footertext-soc-list {
+  display: flex;
+  justify-content: center;
+  /*flex-direction: row;
+  align-items: flex-start;*/
+  gap: 16px;
+  padding-top: 16px;
+}
+.footertext-soc-item {
+  width: 40px;
+  height: 40px;
+  
+}
+.footertext-soc-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  background-color: #434455;
+  /*background-color: #000000;*/
+}
+.footertext-soc-icon {  
+  fill: #ffffff;
+}
+.footertext-soc-link:is(:hover) {
+  background-color: #31D0AA;
 } 
