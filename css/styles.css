@@ -164,7 +164,11 @@ body {
 .mainindex {
     padding-top: 188px;
     padding-bottom: 188px;
-    background: #2E2F42;   
+    background: #2E2F42;
+    background-image: url(./image/peopleoffice.jpg);
+    background-repeat: no-repeat;
+    background-position:  center;
+
 }
 .effstext {       
     /*left: 473px;
