@@ -75,6 +75,10 @@ body {
 }*/
 /*header*/
 /*logo*/
+.mainbackground {
+    background-image: url("./images/peopleoffice.jpg");
+
+}
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -203,9 +207,10 @@ body {
     display: block;
     margin: 0 auto;              
 }
-.indexbtn:hover,.indexbtn:focus {
+.indexbtn:hover,
+.indexbtn:focus {
     background: #404BBF;
-    color: #ffffff;    
+    color: #ffffff;        
 }
 .values {
     padding-top: 120px;
@@ -294,10 +299,7 @@ body {
     align-items: center;
     flex-direction: row;
     flex-direction: column;    
-    height: 380px;
-    left: 1020px;
-    top: 1780px;
-    background: #FFFFFF;*/         
+    */         
 }
 .ourteam3 {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -380,7 +382,11 @@ body {
     width: calc((100% - 48px) / 3);
     border-right: 1px solid #fce7e7;
     border-bottom: 1px solid #fce7e7;
-    border-left: 1px solid #fce7e7;
+    border-left: 1px solid #fce7e7;    
+}
+.p-item:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 .p-item-wrap {
     padding-top: 32px;
@@ -403,9 +409,12 @@ body {
     border-radius: 4px;
     padding: 12px 24px;
 }
-.btn:hover, .btn:focus {
+.btn:hover, 
+.btn:focus {
     background: #404BBF;
-    color: #ffffff;    
+    color: #ffffff;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;    
 }
 /*.btnflex {
     display: flex;
