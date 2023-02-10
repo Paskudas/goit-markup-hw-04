@@ -27,7 +27,7 @@ body {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px sold tomato;     
+  /*outline: 2px sold tomato;*/     
 }
 /*.containerf {
     display: flex;
@@ -102,7 +102,7 @@ body {
     line-height: 1.16;
     color: #4D5AE5;
     text-decoration: none;
-    margin-left: 130px;
+    /*margin-left: 130px;*/
     margin-right: 76px;
     /*text-decoration: none;
     margin-right: 130px;*/
@@ -161,7 +161,7 @@ body {
     padding-top: 188px;
     padding-bottom: 188px;
     background: #2E2F42;    
-    background image: linear-gradient ( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/peopleoffice.jpg);
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
     background-repeat: no-repeat;
     background-position: center;  
 }
@@ -226,7 +226,8 @@ body {
     justify-content: center;
     width: 264px;
     height: 112px;
-    background: #F4F4FD; 
+    background: #F4F4FD;
+    margin-bottom: 8px; 
 }
 .features {
     display: flex;
